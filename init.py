@@ -7,6 +7,8 @@ import reverse_geocoder as rg
 import pprint
 
 URL = 'https://www.sms4india.com/api/v1/sendCampaign'
+URL2 = 'https://www.sms4india.com/api/v1/sendCampaign'
+
 
 app = Flask(__name__, template_folder='app/templates')    
 
@@ -16,6 +18,17 @@ def reverseGeocode(coordinates):
     # result is a list containing ordered dictionary. 
     # pprint.pprint(result)
     return result
+
+def sendGetRequest(reqUrl, apiKey, secretKey, useType, phoneNo, senderId, textMessage):
+  req_params = {
+  'apikey':apiKey,
+  'secret':secretKey,
+  'usetype':useType,
+  'phone': phoneNo,
+  'message':textMessage,
+  'senderid':senderId
+  }
+  return requests.get(reqUrl, req_params)
 # get request
 def sendPostRequest(reqUrl, apiKey, secretKey, useType, phoneNo, senderId, textMessage):
   req_params = {
@@ -51,8 +64,15 @@ def number():
         # get response
     response = sendPostRequest(URL, 'VX456E299QDCERQ7BJV1YXO8IVS6N4ES', 'S3J2ROXIS9J5ZPKP','stage', data, 'SMSIND',d)
     # print(response.text)
-    return response.text
-    
+        # get response
+    response1 = sendGetRequest(URL, 'VX456E299QDCERQ7BJV1YXO8IVS6N4ES', 'S3J2ROXIS9J5ZPKP', 'stage', '7303820799', 'SMSIND', 'message-text' )
+    """
+    Note:-
+        you must provide apikey, secretkey, usetype, mobile, senderid and message values
+        and then requst to api
+    """
+    # print response if you want
+    return response.text 
 
 if __name__ == '__main__': 
     app.run(debug=True)  

@@ -8,6 +8,7 @@ itsdangerous==1.1.0
 Jinja2==2.11.1
 MarkupSafe==1.1.1
 numpy==1.18.1
+phonenumbers==8.11.5
 pprint==0.1
 requests==2.23.0
 reverse-geocoder==1.5.1
