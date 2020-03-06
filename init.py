@@ -4,6 +4,7 @@ import requests
 import json
 from random import random
 import reverse_geocoder as rg 
+from phonenumbers import carrier
 import pprint
 
 URL = 'https://www.sms4india.com/api/v1/sendCampaign'
@@ -57,7 +58,8 @@ def number():
     geo_data = geo_request.json()
     print({'latitude': geo_data['latitude'], 'longitude': geo_data['longitude']})
     coordinates =(geo_data['latitude'], geo_data['longitude']) 
-      
+    ro_number = phonenumbers.parse(data, "RO")
+    print(carrier.name_for_number(ro_number, "en"))
     sender = reverseGeocode(coordinates)
     d = list(sender[0].values())[2]+','+list(sender[0].values())[3]+','+list(sender[0].values())[4]
     print(d)
