@@ -1,6 +1,17 @@
+certifi==2019.11.28
+chardet==3.0.4
 Click==7.0
+flash==1.0.3
 Flask==1.1.1
+idna==2.9
 itsdangerous==1.1.0
 Jinja2==2.11.1
 MarkupSafe==1.1.1
+numpy==1.18.1
+pprint==0.1
+requests==2.23.0
+reverse-geocoder==1.5.1
+scipy==1.4.1
+urllib3==1.25.8
 Werkzeug==1.0.0
+WTForms==2.2.1
