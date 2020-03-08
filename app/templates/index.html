@@ -5,14 +5,20 @@
 <!-- <link href="style.css" type="text/css" rel="stylesheet" /> -->
 </head>
 <body>
-
+    <script type="text/javascript">
+        function MatchDemo() {
+            var phone = document.getElementById("mobile").value;
+            re =/\+\d{2}-\d{10}/;
+            alert(re.test(phone));
+        }
+    </script>
 	<div class="container">
 		<div class="error"></div>
 		<form id="frm-mobile-verification" action = "{{url_for('number')}}" method="POST">
 			<div class="form-heading">Mobile Number Verification</div>
 
 			<div class="form-row">
-				<input id="mobile"  name = "num"
+				<input id="mobile"  name = "num" type = "text"
 					placeholder="Enter the 10 digit mobile" required>
 			</div>
 
