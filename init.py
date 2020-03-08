@@ -46,7 +46,7 @@ def sendPostRequest(reqUrl, apiKey, secretKey, useType, phoneNo, senderId, textM
 @app.route('/')   
 def main():
     """Say hello"""
-    return render_template('index.html')
+    return render_template('map.html')
 @app.route('/number',methods = ['POST']) 
 def number():
     data = request.form["num"]
