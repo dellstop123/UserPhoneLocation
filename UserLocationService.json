@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "userlocationservice",
+  "private_key_id": "45a8b055d26e7728c5d6f2816bc4609b6ce84e45",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQCqn0XtRrvf6q1S\nkmXvro9V2zMyixq2kmZWl2M6WAww0XOuj+TWD1pM4XhQV25tHs0yl07vk+VWnJul\nPNcWsUQxqG2o74puXJYwWPgUJMIMe/tAmg82KuPimsybM8ZeXZ6lURhWOilBRftT\nZKsabarj1sSfEHTo1ZRietd+KkEb3HCLwvu7yuOfYI21Reom0cMIa+4DYj3NoFRH\ndqAAPqgo8MEj5QbjEnKjDe0zh7pilqBXWrVRqsKIc/0FH8UV8cOiTXqC39folPjo\nBYOUJsQUB0KMpCOVcNOSX4MhSTVcofoERuWZkntWxSfufmjwfwNzQWGqv1qhdwP9\nJTK/+vovAgMBAAECggEABChV9ELptA+27LRxF43kasxv+VMKh1HPmSMerEJV/NJS\nMnoCllFmOy13inKGEO73fIN+IqLr5FEeuZWJxjLWmboOxgIAtQoRvpig18qXgeWX\nusqJzATv3aAZBbGVcq+LbmAoqtKOi8tbCLVYUqy0qSaAh+xjkVgzbGB0siK4AVKy\n3DULrdZ4J0lEmqoSpPDcpAcX9On1hBMllWnPq0dmAdcSpxw47KoyxGzyw0ngix8p\nDFDkV0lUVwGq3myRp4MO5+iPNr6Lo+QNeR9IIEoDP6TsI9qfX23X3WHKlmt9dPBb\nry1maIWaId9MFJBGljLFw85jMuEHf7B/6OO0dbY66QKBgQDgZToYwOLH9F/+gi5O\nHclPvM7JRS5I2t586vEDD+VpDuYtI5KdvdLKghZ9+Wa/K4jK37VSNmcPE/7qlnkE\nCotu69kcW2iYBHc2Jr5yljxO82Hy5WjSrK9bAFn/tX+of6ZgHB9EVt/H0+0Uqy04\nFRUrcq4n6AePQkIEzLJlmv5W5wKBgQDCpzRTWMBDtmM6Qc/gYH8wQrS83Qfm1f3l\nIRL415ji/ot9+7X7Y7Z2oLRzImhl3QS0bicu6DuqWkgeAQ51puzJmVsL6bcdTUgj\nlmY94k/heCU+SXbFZiJLFmaFcccF3r/HQkciWKGxZUdjhLx5UdJ1VIGuIsIZrpgs\nwHTLMIsBeQKBgQChomjZwb7ZNz8aTd1a6XvD0wXE1u9DDVzr8DPQ99dQ+Kl2ZERN\nGZnHwzK+ZTLMi2hKch/i60sLAmVBx0e+UHYlXP+TvIg30Cequve+BFfGquuoEfWS\no07gpv0tAyjET8ahPkCLcmRZRV9l3vOAjTclh8LI/grL93cki+oI5D9GiwKBgH5/\nZtPbU2ctuiJ77nnkfAOC9i3efmoXGx6ydb/dbG/n+ALxd3xdepBxM5O3Ap1gGtSe\n2Tv0lAHLFh7ZlOoEhtEkpjSBuAyE0qK99Me2sS7Xg2yNFXCHRTYC4rFKFYrNDViS\ny+OYMcw1A0W7VziIYfr55iSiVf2WpzI+CCib7VoRAoGBAIo2WyR3DTfUtTlqc+Wp\nPkQFL5XoZZIlYzCGXlNzsyhb5oAln0TbxkTkK3YK17pkkYLIY2dajTCQDXoOYOsh\nn5gzNn3G6oJmchJqy/eICECbSfMUadTsh8XbVU5QrRQ7lMYjYM1mc0WjZAKBvp+2\nnYDHweW6M3T70KjJK2mregMM\n-----END PRIVATE KEY-----\n",
+  "client_email": "userlocationservice@userlocationservice.iam.gserviceaccount.com",
+  "client_id": "113672141107629211136",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/userlocationservice%40userlocationservice.iam.gserviceaccount.com"
+}
