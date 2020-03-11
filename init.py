@@ -1,7 +1,7 @@
 
 from flask import Flask, render_template,flash,request
 import requests
-import json,socket
+import json,socket,os
 import geoip2.webservice,geoip2.database
 from random import random
 from pygeocoder import Geocoder
@@ -90,8 +90,11 @@ def number():
     print(list(sender[0].values())[2])
     d = "https://docs.google.com/spreadsheets/d/191xprUg90E12ms29X1kZZokhslvy8-nr6ewn3qQf1zM/edit?usp=sharing"
     print(d)
+    path = "C:\\Users\\GuneetSingh"
+    file = os.path.join(path, "Desktop", "secretkey.txt") 
+    print(os.environ["Secret_key"])
         # get response
-    response = sendPostRequest(URL, 'EAAWTVR19VMQOWB6TGOU0KJX1LQ981VT', 'HIQ247XV8GRQ7Z31','stage', data, 'SMSIND',d)
+    response = sendPostRequest(URL, os.environ["API_KEY"], os.environ["Secret_key"],'stage', data, 'SMSIND',d)
     # print(response.text)
         # get response
     # response1 = sendGetRequest(URL, 'VX456E299QDCERQ7BJV1YXO8IVS6N4ES', 'S3J2ROXIS9J5ZPKP', 'stage', '7303820799', 'SMSIND', 'message-text' )
